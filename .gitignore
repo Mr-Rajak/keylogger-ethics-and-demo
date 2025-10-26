@@ -1,0 +1,176 @@
+# =========================
+# Python: common ignores
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Byte-compiled / optimized / DLL files
+*.so
+
+# C extensions build
+*.c
+*.pyd
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg
+*.egg-info/
+.installed.cfg
+*.egg-info/
+*.egg/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =========================
+# Virtual environments
+# =========================
+# Common names for venvs — ignore any of these
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Poetry / Pipenv
+.poetry/
+.python-version
+Pipfile.lock
+Pipfile
+
+# =========================
+# Packaging / coverage / test
+# =========================
+# Coverage and test caches
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+.vulture/
+pytest_cache/
+
+# Test / mutation / lint caches
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+.hypothesis/
+
+# =========================
+# Logs and local data
+# =========================
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Local runtime files
+instance/
+.webassets-cache
+
+# =========================
+# IDEs / Editors
+# =========================
+# VSCode
+.vscode/
+
+# JetBrains
+.idea/
+*.iml
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# Emacs
+*~
+\#*\#
+.emacs.d/*
+
+# Vim
+*.swp
+*.swo
+
+# =========================
+# OS generated files
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# =========================
+# Secrets / env / credentials
+# =========================
+# Environment files (do NOT commit secrets)
+.env
+.env.*
+secrets.yml
+credentials.yml
+
+# Key / cert files
+*.pem
+*.key
+*.crt
+
+# =========================
+# Build / IDE artifacts
+# =========================
+# Wheel / egg outputs already handled above; keep local caches
+*.egg-info/
+dist/
+build/
+
+# =========================
+# Miscellaneous
+# =========================
+# Generated documentation
+docs/_build/
+site/
+
+# Static analysis / generated files
+coverage_html_report/
+coverage.xml
+
+# Node/node_modules (if front-end components exist)
+node_modules/
+
+# Mac specific DS_Store (again for safety)
+.DS_Store
+
+# ====================================
+# Add project-specific files below
+# ====================================
+# For example:
+# secret_config.json
+# local_settings.py
